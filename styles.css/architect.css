@@ -14,6 +14,7 @@
   padding: 20px 25px;
   font-weight: 600;
   color: #fff;
+  cursor: pointer;
 }
 
 /* ! header styles */
@@ -70,4 +71,32 @@ nav li a {
   line-height: 1.63;
   color: #727272;
   margin-bottom: 32px;
+}
+
+.banner img {
+  width: 100%;
+  margin-top: 32px;
+}
+
+/* ! responsive designs */
+/* * small devices */
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+}
+
+/* * medium devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  header {
+    padding: 50px;
+  }
+
+  nav {
+    flex-direction: column;
+  }
 }
