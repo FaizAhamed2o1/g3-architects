@@ -135,6 +135,32 @@ main {
   margin-bottom: 24px;
 }
 
+.facts-card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.facts-card-container .card {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  text-align: center;
+  padding: 30px;
+}
+
+.facts-card-container .card-stats {
+  font-size: 2.8125rem;
+  font-weight: 600;
+  color: #424242;
+  margin: 10px 0 5px 0;
+}
+
+.facts-card-container .card-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 5px;
+}
+
 /* !,
 !,
 !,
